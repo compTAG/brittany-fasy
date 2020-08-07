@@ -1,0 +1,29 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <span><img src="{{ "/assets/img/logonav.png" | relative_url }}" alt="Logo"></span> {{ site.title }}
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li {% if page.sectionid=='research' %} class="active" {% endif %}><a href="{{ "/research/home/" | relative_url }}">Research</a></li>
+                <li {% if page.sectionid=='teaching' %} class="active" {% endif %}><a href="{{ "/teaching/home/" | relative_url }}">Teaching</a></li>
+                <li {% if page.sectionid=='aboot' %} class="active" {% endif %}><a href="{{ "/aboot/home/" | relative_url }}">About Me</a></li>
+
+            </ul>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ site.git_address }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+		    <li><a href="https://twitter.com/topologybee?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

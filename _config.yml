@@ -1,0 +1,96 @@
+# Site settings
+title: Brittany Terese Fasy 
+email: brittany.fasy@montana.edu
+description: >
+  Personal website for Brittany Terese Fasy, assistant professor in the school of computing and 
+  affiliate faculty in the department of mathematical sciences 
+  at Montana State University 
+lang: en-US
+
+baseurl: "/brittany-fasy" # the subpath of your site, e.g. /blog/
+url: https://benholmgren.github.io/brittany-fasy # the base hostname & protocol for your site
+git_address: https://github.com/bfasy 
+git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+
+# theme options from https://bootswatch.com/3/
+# comment out this to use default Bootstrap
+bootwatch: cerulean # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+remote_theme: aksakalli/jekyll-doc-theme@gh-pages 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+# Plugins (previously gems:)
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/Berlin
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _research
+    type: research
+  values:
+    layout: research
+    sectionid: research
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _teaching
+    type: teaching
+  values:
+    layout: teaching
+    sectionid: teaching
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _aboot
+    type: aboot
+  values:
+    layout: aboot
+    sectionid: aboot
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
+  research:
+    permalink: /:collection/:path/
+    output: true
+  teaching:
+    permalink: /:collection/:path/
+    output: true
+  aboot:
+    permalink: /:collection/:path/
+    output: true
