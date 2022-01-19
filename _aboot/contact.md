@@ -4,6 +4,9 @@ permalink: /aboot/contact/
 redirect_from: /aboot/contact.html
 ---
 
+If you would like a letter of recommendation,
+please use request using [this form](https://montana.qualtrics.com/jfe/form/SV_3Wxs1YrPIHUv7Nz).
+
 ### MSU Office:
 
 > Barnard Hall, Room 363
