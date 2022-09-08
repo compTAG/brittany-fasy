@@ -9,7 +9,7 @@ lang: en-US
 
 baseurl: "/brittany-fasy" # the subpath of your site, e.g. /blog/
 url: https://benholmgren.github.io/brittany-fasy # the base hostname & protocol for your site
-git_address: https://github.com/bfasy 
+git_address: https://github.com/brittany 
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
