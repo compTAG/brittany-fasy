@@ -14,8 +14,10 @@ redirect_from: /aboot/index.html
 > So, our research group moved to Klosterneubug, Austria (near Vienna), and I lived (mostly) in Austria for three years.
 > 
 > After earning my PhD, I was a postdoc for three years: one year at CMU and two years at Tulane University. 
-> At CMU, I was one of the co-founders of topstat, a research group with whom I still collaborate. 
-> At Tulane University, working with [Carola Wenk](http://www.cs.tulane.edu/~carola/). We're working on road network construction and comparison.
+> At CMU, I started collaborating with statisticians. 
+> At Tulane University, I worked with [Carola Wenk](http://www.cs.tulane.edu/~carola/) on topological approaches to road network construction and comparison.
+> 
+> Now, I am an Associate Professor at Montana State University.
 > 
 > In my spare time, I love to run and to play lacrosse. 
 > I even played with the [Vienna Cherokees](https://www.cherokees-lacrosse.com/) in Austria!
