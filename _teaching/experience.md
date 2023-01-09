@@ -27,7 +27,7 @@ redirect_from: /teaching/experience.html
 * Topology
 	* Instructor, IST Austria, 2011-2012 (informal class)
 
-## Underraduate Courses
+## Undergraduate Courses
 
 * Advanced Algorithm Topics
 	* Instructor, MSU, Spring 2022
