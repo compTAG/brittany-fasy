@@ -1,5 +1,5 @@
 ---
-title: Service
+title: Overview
 permalink: /service/home/
 redirect_from: /service/index.html
 ---

@@ -79,6 +79,15 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _service
+    type: service
+  values:
+    layout: service
+    sectionid: service
+    seo:
+      type: "WebPage"
+
 collections:
   docs:
     permalink: /:collection/:path/
@@ -93,5 +102,8 @@ collections:
     permalink: /:collection/:path/
     output: true
   aboot:
+    permalink: /:collection/:path/
+    output: true
+  service:
     permalink: /:collection/:path/
     output: true
