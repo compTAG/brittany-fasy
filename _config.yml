@@ -22,6 +22,7 @@ markdown: kramdown
 highlighter: rouge
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
