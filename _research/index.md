@@ -11,9 +11,9 @@ More information on Dr. Fasy can be found in her
 <a href="../../assets/fasy-brittany-rsrch-stmt.pdf">formal research statement</a>,
 or by navigating through this site.
 
-Please visit the [projects page](/brittany-fasy/research/projects/) to learn
+Please visit the [projects page](/brittany/research/projects/) to learn
 more about her work on grant funded projects,
-or the [publications page](/brittany-fasy/research/publications/)
+or the [publications page](/brittany/research/publications/)
 for a full list of publications.
 
 ### Featured Publications
